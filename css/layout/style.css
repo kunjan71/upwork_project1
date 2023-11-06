@@ -5340,11 +5340,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 .bottom-overlay._active {
-  right: 15px;
+  right: 5px;
 }
 
 .bottom-overlay._close {
-  right: -100%;
+  right: -105%;
 }
 
 .bottom-overlay__zoom {
@@ -9831,6 +9831,8 @@ a.button_blue2:hover::after {
 .tours-links{
   width: 100%;
   display: flex;
+  /* max-height: 30px;
+  overflow: scroll; */
   align-items: center;
   justify-content: space-between;
 }
