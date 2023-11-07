@@ -2998,6 +2998,8 @@ footer .menu .ws-menu .item a {
     margin: 0 auto;
     padding-top: 150px;
     padding-bottom: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
     display: flex;
     flex-direction: column;
     gap: 15px;
