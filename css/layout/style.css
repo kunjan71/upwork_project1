@@ -9906,6 +9906,9 @@ color:#ef9273;
   text-align: center;
   background-color: #3c7c98;
 }
+.content #faq_con.info .faq__container .questions .question_control{
+  font-size: 22px;
+}
 /* .icon-wrapper2{
   display: flex;
   align-items: center;
