@@ -3292,7 +3292,7 @@ footer .menu .ws-menu .item a {
   display: block;
   content: "\e900";
   font-size: 30px;
-  color: #f2a48a;
+  color: rgb(255, 0, 0);
   -webkit-animation: rotate 4s ease-in-out alternate infinite;
           animation: rotate 4s ease-in-out alternate infinite;
 }
@@ -9900,7 +9900,8 @@ color:#ef9273;
   margin-bottom: 24px;
   /* margin-top: 24px; */
 }
-#section9.faq__container{
+#section9.faq__container.faq_page{
+  padding-top: 0;
   margin: 0;
 }
 #ARR{
