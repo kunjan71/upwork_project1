@@ -3225,7 +3225,7 @@ footer .menu .ws-menu .item a {
 .zoom__text1 {
   font-weight: 600;
   text-align: center;
-  /* background-color: #fff; */
+  background-color: #fff;
   padding: 5px;
   border-radius: 15px;
   position: relative;
@@ -3237,7 +3237,7 @@ footer .menu .ws-menu .item a {
 .zoom__text1 p {
   font-weight: 600;
   text-align: center;
-  /* background-color: #fff; */
+  background-color: #fff;
   position: relative;
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
@@ -8100,6 +8100,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
       padding-right: 50px;
       padding-top: 50px;
   }
+
 }
 @media screen and (max-width:768px) {
   header img {
@@ -9673,7 +9674,7 @@ border-radius: 7px;
     width: 80vw;
   
   }
-   
+
 }
 
 @media screen and (max-width: 1250px) {
@@ -9766,7 +9767,10 @@ border-radius: 7px;
       display: flex;
   flex-direction: column;
   }
-
+  #faq_con.info{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
    
 }
 
@@ -9853,6 +9857,7 @@ color:#ef9273;
 }
 .tours-links a{
   position: relative;
+  text-align: center;
   font-weight: 600;
   padding: 0 5px;
 
@@ -9883,11 +9888,24 @@ color:#ef9273;
 .tours-links .active {
   color: #1889e6;
 }
-.faq_page{
-  margin-bottom: 50px;
+
+.title_faqpage{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 33px;
+  margin-bottom: 24px;
+  /* margin-top: 24px; */
 }
-
-
+#section9.faq__container{
+  margin: 0;
+}
+#ARR{
+  font-weight: 100;
+  font-size:small;
+  color: #e0e0e0;
+  text-align: center;
+  background-color: #3c7c98;
+}
 /* .icon-wrapper2{
   display: flex;
   align-items: center;

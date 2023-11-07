@@ -177,7 +177,7 @@ while ($row = $result->fetch_assoc()) {
                         <a href="#" class="list-footer__link">Datenschutz</a>
                     </li>
                     <li class="list-footer__item">
-                        <a href="#" class="list-footer__link">AGB</a>
+                        <a href="#" class="list-footer__link">FAQ</a>
                     </li>
                 </ul>
             </div>
