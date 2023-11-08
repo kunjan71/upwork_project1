@@ -9890,8 +9890,8 @@ top: calc(50% - 2.3rem);
     line-height: 30px;
 } 
 .content #faq_con.info .faq_page .questions .question_control{
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 15px;
   line-height: 30px;
 }
 @media (max-width: 854px) {
