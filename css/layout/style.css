@@ -9720,6 +9720,32 @@ border-radius: 7px;
       }
        
 }
+@media screen and (max-width: 612px) {
+
+  header a img#Nord-logo{
+    width: 120px;
+    padding: 0;
+  }
+  header#logo-head{
+    left: 5px;
+    top: 5px;
+  }
+  #tour-logo header a,img{
+    width: 120px;
+    padding: 0;
+    margin: 0;
+  }
+  #tour-logo.wrapper header.header_tours{
+    height: auto;
+    left: 5px;
+    top: 5px;
+  }
+
+  .page .page__intro.intro .intro__container{
+    padding-top: 150px;
+  }
+   
+}
 @media screen and (max-width: 419px) {
   .testimonial_content{
     display: flex;
