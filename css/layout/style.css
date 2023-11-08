@@ -9750,6 +9750,14 @@ border-radius: 7px;
       display: flex;
   flex-direction: column;
   }
+  header a img#Nord-logo{
+    width: 120px;
+    padding: 0;
+  }
+  header#logo-head{
+    left: 5px;
+    top: 5px;
+  }
   /* #faq_con.info{
     padding-left: 10px;
     padding-right: 10px;
