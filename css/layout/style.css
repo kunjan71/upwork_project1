@@ -3036,7 +3036,7 @@ footer .menu .ws-menu .item a {
   min-height: 100vh;
 }
 
-.intro::before {
+/* .intro::before {
   content: "";
   position: absolute;
   z-index: 2;
@@ -3045,7 +3045,7 @@ footer .menu .ws-menu .item a {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.35);
-}
+} */
 
 .intro__container {
   position: relative;
@@ -9796,7 +9796,7 @@ border-radius: 7px;
   }
 
   .page .page__intro.intro .intro__container{
-    padding-top: 150px;
+    padding-top: 80px;
   }
   /* #faq_con.info{
     padding-left: 10px;
