@@ -3065,22 +3065,22 @@ footer .menu .ws-menu .item a {
 .intro__title {
   color: #fff;
   margin-bottom: 18px;
-  opacity: 0;
+  /* opacity: 0;
   -webkit-transform: translate(0, 50px);
       -ms-transform: translate(0, 50px);
           transform: translate(0, 50px);
   -webkit-transition: opacity 0.8s ease 0.5s, -webkit-transform 0.8s ease 0.5s;
   transition: opacity 0.8s ease 0.5s, -webkit-transform 0.8s ease 0.5s;
   transition: opacity 0.8s ease 0.5s, transform 0.8s ease 0.5s;
-  transition: opacity 0.8s ease 0.5s, transform 0.8s ease 0.5s, -webkit-transform 0.8s ease 0.5s;
+  transition: opacity 0.8s ease 0.5s, transform 0.8s ease 0.5s, -webkit-transform 0.8s ease 0.5s; */
 }
 
-.loaded .intro__title {
+/* .loaded .intro__title {
   opacity: 1;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
-}
+} */
 
 .intro__text {
   margin-top: 24px;
@@ -9757,6 +9757,20 @@ border-radius: 7px;
   header#logo-head{
     left: 5px;
     top: 5px;
+  }
+  #tour-logo header a,img{
+    width: 120px;
+    padding: 0;
+    margin: 0;
+  }
+  #tour-logo.wrapper header.header_tours{
+    height: auto;
+    left: 5px;
+    top: 5px;
+  }
+
+  .page .page__intro.intro .intro__container{
+    padding-top: 150px;
   }
   /* #faq_con.info{
     padding-left: 10px;
