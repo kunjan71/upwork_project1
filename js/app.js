@@ -8252,3 +8252,33 @@ PERFORMANCE OF THIS SOFTWARE.
 				},
 			});
 		}
+
+  //   Screen detail script---------------------------------------------
+
+let width;
+let height;
+const func = () => {
+  if (width >= 1536) return "2xl";
+  if (width >= 1280) return "xl";
+  if (width >= 1024) return "lg";
+  if (width >= 768) return "md";
+  if (width >= 640) return "sm";
+  if (width >= 432) return "xs";
+};
+width =window.innerWidth ||document.documentElement.clientWidth ||document.body.clientWidth;
+height =window.innerHeight ||document.documentElement.clientHeight ||document.body.clientHeight;
+document.querySelector("#screen_bp").innerHTML= func()
+document.querySelector("#screen_height").innerHTML = height +'px'
+  document.querySelector("#screen_width").innerHTML= width +'px'
+function onChangeWindow() {
+  width =window.innerWidth ||document.documentElement.clientWidth ||document.body.clientWidth;
+  height =window.innerHeight ||document.documentElement.clientHeight ||document.body.clientHeight; 
+
+  document.querySelector("#screen_height").innerHTML = height +'px'
+  document.querySelector("#screen_width").innerHTML= width +'px'
+  document.querySelector("#screen_bp").innerHTML= func()
+
+      }
+  
+      window.addEventListener("resize", onChangeWindow);
+
