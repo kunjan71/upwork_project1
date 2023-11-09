@@ -3404,7 +3404,7 @@ footer .menu .ws-menu .item a {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #fde8e0;
+  background-color:rgb(245, 229, 198)
 }
 
 .list__icon svg {
@@ -3413,7 +3413,7 @@ footer .menu .ws-menu .item a {
 }
 
 .list__icon svg path {
-  fill: #bf0024;
+  fill: orange;
 }
 
 
