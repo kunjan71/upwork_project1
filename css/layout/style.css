@@ -9755,6 +9755,17 @@ border-radius: 7px;
     padding-top: 80px;
       }   
 }
+@media screen and (max-width: 767px) {
+  .appointment__content{
+    /* text-align: center; */
+  }
+  .btn_blue2_con{
+    text-align: center;
+  }
+  #section27{
+
+  }
+}
 @media screen and (max-width: 419px) {
   .testimonial_content{
     display: flex;
@@ -9811,11 +9822,7 @@ border-radius: 7px;
     padding-top: 80px;
     
   }
-  /* #faq_con.info{
-    padding-left: 10px;
-    padding-right: 10px;
-  } */
-   
+
 }
 
 
@@ -9968,6 +9975,24 @@ top: calc(50% - 2.3rem);
 }
 }
 
+
+#screen_detail{
+ background-color:white;
+ opacity: .8;
+ border-radius: 5px;
+  position: fixed;
+  z-index: 60;
+  bottom: 0;
+  padding: 0;
+}
+#screen_detail span{
+font-size: 12px;
+padding: 0;
+margin: 0;
+height: 10px;
+font-weight: 500;
+}
+
 /* #section9.faq__container.faq_page{
   padding-top: 0;
   margin: 0;
@@ -9988,20 +10013,3 @@ top: calc(50% - 2.3rem);
   line-height: 33px;
   margin-bottom: 24px;
 } */
-
-#screen_detail{
- background-color:white;
- opacity: .8;
- border-radius: 5px;
-  position: fixed;
-  z-index: 60;
-  bottom: 0;
-  padding: 0;
-}
-#screen_detail span{
-font-size: 12px;
-padding: 0;
-margin: 0;
-height: 10px;
-font-weight: 500;
-}
