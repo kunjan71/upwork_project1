@@ -3415,8 +3415,6 @@ footer .menu .ws-menu .item a {
 .list__icon svg path {
   fill: rgb(224, 146, 0);
 }
-
-
 .cards__items {
   display: -ms-grid;
   display: grid;
@@ -9991,6 +9989,29 @@ padding: 0;
 margin: 0;
 height: 10px;
 font-weight: 500;
+}
+
+/* 
+.icon_1 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30px;
+          flex: 0 0 30px;
+} */
+
+.icon_1 svg {
+  width: 40px;
+  height: 40px;
+transform: rotate(-8deg);
+}
+
+.icon_1 svg path {
+  stroke:#404040;
+  /* stroke-width: 2; */
+}
+.icon_1 svg#tourism {
+  width: 50px;
+  height: 50px;
+transform: rotate(-12deg);
 }
 
 /* #section9.faq__container.faq_page{
