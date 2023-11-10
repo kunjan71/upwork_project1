@@ -3404,7 +3404,7 @@ footer .menu .ws-menu .item a {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color:rgb(245, 229, 198)
+  background-color:rgb(246, 235, 212)
 }
 
 .list__icon svg {
@@ -3413,7 +3413,7 @@ footer .menu .ws-menu .item a {
 }
 
 .list__icon svg path {
-  fill: orange;
+  fill: rgb(224, 146, 0);
 }
 
 
@@ -9749,10 +9749,10 @@ border-radius: 7px;
   }
 
   .page .page__intro.intro .intro__container{
-    padding-top: 80px;
+    padding-top: 50px;
   }
   #head_wrap{
-    padding-top: 80px;
+    padding-top: 50px;
       }   
 }
 @media screen and (max-width: 767px) {
@@ -9816,10 +9816,10 @@ border-radius: 7px;
   }
 
   .page .page__intro.intro .intro__container{
-    padding-top: 80px;
+    padding-top: 50px;
   }
   #head_wrap{
-    padding-top: 80px;
+    padding-top: 50px;
     
   }
 
