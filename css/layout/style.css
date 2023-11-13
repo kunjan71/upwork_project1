@@ -10030,6 +10030,10 @@ transform: rotate(-8deg);
   height: 50px;
 transform: rotate(-12deg);
 }
+.icon_2 svg {
+  width: 50px;
+  height: 50px;
+}
 
 /* #section9.faq__container.faq_page{
   padding-top: 0;
