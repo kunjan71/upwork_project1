@@ -9735,8 +9735,12 @@ border-radius: 7px;
     padding: 0;
   }
   header#logo-head{
-    left: 5px;
+    /* left: 5px;*/
     top: 5px;
+    left: 0;
+    width: 96%;
+    display: flex;
+    justify-content: center;
   }
   #tour-logo> header> a,#img-main{
     width: 120px;
@@ -9808,8 +9812,12 @@ border-radius: 7px;
     padding: 0;
   }
   header#logo-head{
-    left: 5px;
-    top: 5px;
+    /* left: 5px;*/
+    top: 5px; 
+    width: 96%;
+    display: flex;
+    justify-content: center;
+
   }
   #tour-logo> header> a,#img-main{
     width: 120px;
