@@ -3293,7 +3293,7 @@ footer .menu .ws-menu .item a {
   display: block;
   content: "\e900";
   font-size: 30px;
-  color: #ffff00;
+  color: #f0f009;
   -webkit-animation: rotate 4s ease-in-out alternate infinite;
           animation: rotate 4s ease-in-out alternate infinite;
 }
@@ -9705,12 +9705,7 @@ border-radius: 7px;
     margin-left: 0;
     margin-right: 0;
   }
-  /* .testimonial_content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-  } */
+
   .testimonial_content img{
     width: 100%;
     height: 350px;
@@ -9750,7 +9745,9 @@ border-radius: 7px;
   }
   #tour-logo.wrapper header.header_tours{
     height: auto;
-    left: 5px;
+    width: 98%;
+    display: flex;
+    justify-content: center;
     top: 5px;
   }
 
@@ -9762,9 +9759,7 @@ border-radius: 7px;
       }   
 }
 @media screen and (max-width: 767px) {
-  .appointment__content{
-    /* text-align: center; */
-  }
+
   .btn_blue2_con{
     text-align: center;
   }
@@ -9813,7 +9808,6 @@ border-radius: 7px;
     padding: 0;
   }
   header#logo-head{
-    /* left: 5px;*/
     top: 5px; 
     width: 96%;
     display: flex;
@@ -9827,7 +9821,9 @@ border-radius: 7px;
   }
   #tour-logo.wrapper header.header_tours{
     height: auto;
-    left: 5px;
+    width: 96%;
+    display: flex;
+    justify-content: center;
     top: 5px;
   }
 
@@ -9991,7 +9987,7 @@ top: calc(50% - 2.3rem);
 }
 }
 
-
+/* 
 #screen_detail{
  background-color:white;
  opacity: .8;
@@ -10007,14 +10003,8 @@ padding: 0;
 margin: 0;
 height: 10px;
 font-weight: 500;
-}
-
-
-/* .icon_1 {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 30px;
-          flex: 0 0 30px;
 } */
+
 
 .icon_1 svg {
   width: 50px;
@@ -10024,7 +10014,6 @@ font-weight: 500;
 
 .icon_1 svg path {
   stroke:#404040;
-  /* stroke-width: 2; */
 }
 
 .icon_2 svg {
@@ -10033,36 +10022,11 @@ font-weight: 500;
 margin-right: 5px;
   transform: translateY(18px) rotate(-10deg);
 }
-/* .icon_1 svg#tourism {
-  width: 50px;
-  height: 50px;
-transform: rotate(-12deg);
-} */
+
 .icon_3 svg {
   width: 40px;
 margin-right: 5px;
 height: 40px; 
 transform: translateY(10px);
 }
-
-/* #section9.faq__container.faq_page{
-  padding-top: 0;
-  margin: 0;
-} */
-/* .content #faq_con.info .faq__container .questions .question_control{
-  font-weight: 500;
-    font-size: 20px;
-    line-height: 33px;
-}
-.content #faq_con.info .faq__container .questions p.desc{
-  font-size: 15px;
-    line-height: 30px;
-} */
-
-/* .title_faqpage{
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 33px;
-  margin-bottom: 24px;
-} */
 
