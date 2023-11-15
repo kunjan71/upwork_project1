@@ -8283,4 +8283,3 @@ function onChangeWindow() {
   }
   
       window.addEventListener("resize", onChangeWindow);
-
