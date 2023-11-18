@@ -5206,6 +5206,7 @@
     });
   }
   function initSliders() {
+    
     if (document.querySelector(".apartments__slider"))
       new core(".apartments__slider", {
         modules: [Navigation, Pagination],
@@ -8415,7 +8416,15 @@ for (let e of document.querySelectorAll('input[type="range"].slider-progress')) 
   e.style.setProperty('--max', e.max == '' ? '100' : e.max);
   e.addEventListener('input', () => e.style.setProperty('--value', e.value));
 }
+// -----------------------------------------------------------
+// function mouseEnter() {
+//   document.getElementById("bottom_gallery_container").setAttribute("delay",10000);
+//   initSliders()
+// }
 
+// function mouseLeave() {
+//   document.getElementById("bottom_gallery_container").setAttribute("delay","3e3");
+// }
 
 //   //   Screen detail script---------------------------------------------
 
