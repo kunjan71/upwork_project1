@@ -10081,7 +10081,7 @@ transform: translateY(10px);
 	left: 0; 
 	right: 0; 
 	height: 40px; 
-	background-color: #3ac4ff; 
+	background-color: #0b7c99; 
 	display: flex; 
 	justify-content: space-between; 
 	align-items: center; 
@@ -10184,8 +10184,7 @@ transform: translateY(10px);
 }
 
  
-/*generated with Input range slider CSS style generator (version 20211225)
-https://toughengineer.github.io/demo/slider-styler*/
+/* --------------volume range css----------------------------------------- */
 input[type=range].styled-slider {
   height: 3px;
   -webkit-appearance: none;
@@ -10313,8 +10312,12 @@ position: absolute;
  justify-content: space-between;
  margin-bottom: 8px;
   }
+.title_con h5,.title_con span{
+color: white;
+     }
   #bottom_gallery .item_head p{
     font-size: small;
+    color: #e6e3e3;
     line-height: 1;
      }
   @media screen and (max-width: 768px){
