@@ -10338,3 +10338,34 @@ height: 300px;
    }
    
   }
+#bottom_gallery_container{
+  position: relative;
+}
+#arrow-right{
+  position: absolute;
+  cursor: pointer;
+  top: 40%;
+ right: 0;
+ font-size: 50px;
+ font-weight: 800;
+ z-index: 50;
+ opacity: 0;
+ color: white;
+ }
+#arrow-left{
+  position: absolute;
+ color: white;
+ opacity: 0;
+ cursor: pointer;
+  top: 40%;
+ left: 0;
+ font-size: 50px;
+ font-weight: 800;
+ z-index: 50;
+ }
+ #bottom_gallery_container:hover #arrow-left{
+  opacity: 1;
+ }
+  #bottom_gallery_container:hover #arrow-right{
+  opacity: 1;
+ }

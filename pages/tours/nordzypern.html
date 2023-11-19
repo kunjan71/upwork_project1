@@ -621,7 +621,8 @@
                 <h2 class="apartments__title title">
                   <span class="title-line">Wohnungen zu verkaufen</span>
                 </h2>
-                <div class="apartments__slider swiper">
+                <div class="apartments__slider">
+                  <!-- <div class="apartments__slider swiper"> -->
                   <div class="apartments__wrapper swiper-wrapper">
                     <article
                       data-watch-threshold="0.3"
@@ -2620,7 +2621,9 @@
                   reprehenderit recusandae totam qui excepturi?
                 </div>
               </div>
-              <div id="bottom_gallery_container" class="gallery__slider swiper">
+              <div id="bottom_gallery_container" onmouseenter="mouseEnter()" onmouseleave="mouseLeave()" class="gallery__slider swiper">
+                <span onclick="handleNowRight()" id="arrow-right">&#8680;</span>
+                <span onclick="handleNowLeft()" id="arrow-left">&#8678;</span>
                 <div id="bottom_gallery" class="gallery__wrapper swiper-wrapper">
                   <a
                     href="/pages/faq.html"

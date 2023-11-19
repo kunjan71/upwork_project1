@@ -5282,6 +5282,7 @@
   }
   window.addEventListener("load", function (e) {
     initSliders();
+    document.getElementById("bottom_gallery_container").swiper.autoplay.stop()
   });
   class ScrollWatcher {
     constructor(props) {
@@ -8417,14 +8418,46 @@ for (let e of document.querySelectorAll('input[type="range"].slider-progress')) 
   e.addEventListener('input', () => e.style.setProperty('--value', e.value));
 }
 // -----------------------------------------------------------
+const bottom_gallery_container = document.getElementById("bottom_gallery_container")
 // function mouseEnter() {
-//   document.getElementById("bottom_gallery_container").setAttribute("delay",10000);
-//   initSliders()
+//  bottom_gallery_container.swiper.autoplay.pause();
+//   // initSliders()
 // }
 
 // function mouseLeave() {
-//   document.getElementById("bottom_gallery_container").setAttribute("delay","3e3");
+//  bottom_gallery_container.swiper.autoplay.resume();
 // }
+
+function handleNowRight(params) {
+ let timer
+if (timer) clearTimeout(timer)
+bottom_gallery_container.swiper.changeLanguageDirection("ltr")
+  bottom_gallery_container.swiper.params.autoplay.delay = 0;
+ bottom_gallery_container.swiper.params.speed = 100;
+ bottom_gallery_container.swiper.autoplay.start();
+  timer= setTimeout(()=>{
+   bottom_gallery_container.swiper.autoplay.stop();
+   bottom_gallery_container.swiper.params.autoplay.delay = 3000;
+   bottom_gallery_container.swiper.params.speed = 800;
+  },120)
+  
+ 
+}
+function handleNowLeft(params) {
+  let timer
+ if (timer) clearTimeout(timer)
+ bottom_gallery_container.swiper.changeLanguageDirection("rtl")
+   bottom_gallery_container.swiper.params.autoplay.delay = 0;
+  bottom_gallery_container.swiper.params.speed = 100;
+  bottom_gallery_container.swiper.autoplay.start();
+   timer= setTimeout(()=>{
+    bottom_gallery_container.swiper.autoplay.stop();
+    bottom_gallery_container.swiper.params.autoplay.delay = 3000;
+    bottom_gallery_container.swiper.params.speed = 800;
+   },120)
+   
+  
+ }
 
 //   //   Screen detail script---------------------------------------------
 
